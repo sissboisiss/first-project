@@ -1,0 +1,26 @@
+o= difference(){
+	cube(size = [25,10,40], center=true);
+	rotate(v=[90,0,0])
+	cube(size = [25,3,22], center=true);
+}
+
+c= difference(){
+	cube(size = [25,10,40], center=true);
+	rotate(v=[90,0,0]) cube(size = [25,3,22], center=true);
+	translate(v=[0,3,0]) cube(size = [25,3.5,4], center=true);
+}
+
+r=  difference(){
+	cube(size = [25,10,40], center=true);
+	translate(v=[0,0,-12]) cube(size = [25,3,18], center=true);
+	translate(v=[0,0,8]) cube(size = [25,3,9], center=true);
+	translate(v=[0,3.5,0]) cube(size = [25,3.5,2], center=true);
+}
+
+
+e=difference(){
+	cube(size = [25,10,40], center=true);
+	translate(v=[0,0,-10]) cube(size = [25,3,13], center=true);
+	translate(v=[0,0,10]) cube(size = [25,3,13], center=true);
+	translate(v=[0,3.5,5]) cube(size = [25,3.5,2], center=true);		translate(v=[0,3.5,-5]) cube(size = [25,3.5,2], center=true);
+}
